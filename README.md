@@ -1,1 +1,2 @@
-# pomodoro-focus-timer
+## What is the Pomodoro Technique?
+The Pomodoro Technique is a way to manage your time by breaking work into short chunks, usually 25 minutes, with small breaks. You focus on one task during each chunk (called a pomodoro), then take a break before starting the next one. This helps you stay productive and avoid burnout.

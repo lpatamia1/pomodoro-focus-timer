@@ -1,0 +1,84 @@
+html {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  min-height: 100vh;
+  color: #d8e9ef;
+  background-image: linear-gradient(120deg, #ff5e62 0%, #ff9966 20%, #f9d423 40%, #a8e063 60%, #43cea2 80%, #185a9d 100%);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0 auto 10px auto;
+  color: #d8e9ef;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.app-message {
+  height: 20px;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+
+.app-container {
+  width: 250px;
+  height: 420px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.app-circle {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#progress {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 1s linear; /* smooth tick */
+}
+
+.app-counter-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 250%;
+  color: #d8e9ef;
+  margin: 0;
+  text-shadow: 0 0 12px #e85a71, 0 0 2px #fff;
+}
+
+button {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #d8e9ef;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background: linear-gradient(90deg, #e85a71 0%, #bf5239 100%);
+}
+
+button:hover {
+  color: #90c0d1;
+  background: rgba(255, 255, 255, 0.2);
+}
